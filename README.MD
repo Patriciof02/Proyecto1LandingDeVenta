@@ -4,4 +4,5 @@ Para el primer proyecto realice una landing de ventas de equipo para jugar padel
 se realizo una pagina principal sobre venta de palas de padel y otros equipamentos.
 ## Tecnologias utilizadas
 para relizar esta pagina se uso html y css junto con css flex 
-![PrototipadoSimple](./prototipado%20simple%20proyecto%201.png)
+## Prototipado Simple
+![PrototipadoSimple](./assets/images/prototipadoSimpleProyecto1.png)
