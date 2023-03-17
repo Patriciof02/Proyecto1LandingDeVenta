@@ -6,3 +6,5 @@ se realizo una pagina principal sobre venta de palas de padel y otros equipament
 para relizar esta pagina se uso html y css junto con css flex 
 ## Prototipado Simple
 ![PrototipadoSimple](./assets/images/prototipadoSimpleProyecto1.png)
+
+[link](patriciof02.github.io/Proyecto1LandingDeVenta/)
