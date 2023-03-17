@@ -92,7 +92,7 @@ header button :hover{
 }
 .card2{
     color: white;
-    padding: 50px;
+    padding: 30px;
 }
 .card2 p{
     margin-bottom: 10px;
@@ -133,6 +133,7 @@ header button :hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .section2 div {
@@ -158,14 +159,68 @@ article {
     box-shadow: 1px 1px 15px rgb(196, 192, 192);
     margin: 10px;
     border-radius: 10px;
+    font-size: medium;
+}
+
+.section3 {
+    background-color: rgba(12, 13, 15, 0.838);
+    display: flexbox;
+    justify-content: space-evenly;
+
+}
+.section3 div{
+    padding: 25px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(159, 155, 155);
+
+}
+.section3 img {
+    height: 100px;
+}
+
+.section4 img {
+    height: 40px;
+    padding: 10px;
+}
+.section4 {
+    display: flex;
+    justify-content: space-around;
+    background-color:#FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.section4 div{
+    border-top: 20px;
+}
+.section4 h3 {
+    padding: 10px;
+    text-align: left;
+}
+.section4 ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: grey;
+
+}
+.section4 li{
+padding: 10px;
+}
+
+.section4 a {
+    text-decoration: none;
+    color: grey;
+    padding: 0px;
+  
+
 }
 
 
 
-
-
-
-@media (max-width: 725px) {
+@media (max-width: 750px) {
     nav{
         display: none;
     }
@@ -180,7 +235,18 @@ article {
     .card1{
         border-radius: 70px;
     }
+    .section3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
-@media (max-with:725px){
+@media (max-width: 662px){
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
 }
