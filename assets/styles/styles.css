@@ -67,7 +67,7 @@ header button :hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     background-color: rgba(12, 13, 15, 0.838);
 }
 .section1 p{
@@ -75,6 +75,10 @@ header button :hover{
 }
 .section1 h1 {
     text-shadow: 1px 1px 1px  grey;
+    margin-bottom: 5px;
+}
+.section1 hr{
+    border: 1px solid white ;
 }
 .card1{
     background-image: url("../images/padel.jpg");
@@ -216,6 +220,46 @@ padding: 10px;
     padding: 0px;
   
 
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    color: grey;
+}
+.login h1 {
+    color: black;
+
+}
+.login div{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 80px;
+    box-shadow: 1px 1px 15px rgb(196, 192, 192);
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+}
+.login label {
+    margin-top: 20px;
+}
+.login input {
+    border: 1px solid rgb(190, 187, 187);
+    padding: 4px 25px;
+    border-radius: 5PX;
+}
+.login button {
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 1px 1px 15px rgb(196, 192, 192);
+    background-color: #367CF0;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 
